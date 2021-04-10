@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj": {}
+    "C:\\Dev\\Projects\\MedicinTrackingSystem\\MTS\\Medicin-Tracking-System\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj": {
+    "C:\\Dev\\Projects\\MedicinTrackingSystem\\MTS\\Medicin-Tracking-System\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj",
+        "projectUniqueName": "C:\\Dev\\Projects\\MedicinTrackingSystem\\MTS\\Medicin-Tracking-System\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj",
         "projectName": "medicaltrackingsystem.api",
-        "projectPath": "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj",
+        "projectPath": "C:\\Dev\\Projects\\MedicinTrackingSystem\\MTS\\Medicin-Tracking-System\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj",
         "packagesPath": "C:\\Users\\devanand.panday\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\obj\\",
+        "outputPath": "C:\\Dev\\Projects\\MedicinTrackingSystem\\MTS\\Medicin-Tracking-System\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

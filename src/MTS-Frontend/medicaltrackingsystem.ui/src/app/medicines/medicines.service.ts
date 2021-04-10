@@ -5,7 +5,7 @@ import { Medicines } from './medicines'
   providedIn: 'root'
 })
 export class MedicinesService {
-  _baseURL:string="/api/MTS";
+  _baseURL: string ="http://localhost:49157/api/MTS"; //This can be placed in envirnment variable.
   constructor(private http:HttpClient) { }
 
   getAllMedicines()

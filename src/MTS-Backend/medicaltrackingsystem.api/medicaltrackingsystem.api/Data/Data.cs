@@ -13,7 +13,7 @@ namespace medicaltrackingsystem.api.Data
         static List<Medicine> allMedicine = GetMedicinesFromJson();
         static List<Medicine> GetMedicinesFromJson()
         {
-            var jsonString = File.ReadAllText(@".\Data\mts.json");
+            var jsonString = File.ReadAllText(@"./Data/mts.json");
             return JsonConvert.DeserializeObject<List<Medicine>>(jsonString);
         }
     }

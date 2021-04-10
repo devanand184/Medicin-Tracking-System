@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Medicines } from '../medicines';
-import {MedicinesService} from '../medicines.service';
+import { MedicinesService } from '../medicines.service';
 
 @Component({
   selector: 'pm-medicines-list',
@@ -25,41 +25,38 @@ export class MedicinesListComponent implements OnInit {
   performFilter(listFilter: string): Medicines[] {
     listFilter = listFilter.toLocaleLowerCase();
     return this.medicines.filter((medicine: Medicines) =>
-    medicine.fullNameOfMedicine.toLocaleLowerCase().indexOf(listFilter) !== -1);
- }
+      medicine.fullNameOfMedicine.toLocaleLowerCase().indexOf(listFilter) !== -1);
+  }
 
   filteredMedicines: Medicines[] = [];
 
   public medicines: any;
-  constructor(private service:MedicinesService) { }
+  constructor(private service: MedicinesService) { }
 
   ngOnInit(): void {
     this.service.getAllMedicines().subscribe({
-      next: data =>{
-      this.medicines=data;
-      this.filteredMedicines=this.medicines;
-//console.log(this.filteredMedicines);
-    },
-    error: err=>this.errorMessage=err
-  });
+      next: data => {
+        this.medicines = data;
+        this.filteredMedicines = this.medicines;
+        //console.log(this.filteredMedicines);
+      },
+      error: err => this.errorMessage = err
+    });
   }
-  quantityCheck(q:number)
-  {
-    if(q<10)
-    {
+  quantityCheck(q: number) {
+    if (q < 10) {
       return 'yellow';
     }
   }
 
-  dateCheck(d:Date)
-  {
+  dateCheck(d: Date) {
     var todaysDate = new Date();
-console.log(todaysDate.toDateString());
-console.log(new Date(d) );
-let compareDate= new Date(d);
-    if(compareDate < todaysDate) {
-    return 'red';
+    console.log(todaysDate.toDateString());
+    console.log(new Date(d));
+    let compareDate = new Date(d);
+    if (compareDate < todaysDate) {
+      return 'red';
 
-}
+    }
   }
 }
