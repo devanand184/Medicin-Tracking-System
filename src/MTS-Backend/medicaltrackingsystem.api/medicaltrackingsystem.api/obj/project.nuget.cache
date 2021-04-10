@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "eghz1FAKNSkJ/SjLKhBX5v/dgZbrYyZtwzV3NMnEADzgGk2iCsLvH3DBjb4CePaHHMmgqR2+Y/71SEXyXM4wUw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Projects\\MedicinTrackingSystem\\medical-tracking-system\\src\\MTS-Backend\\medicaltrackingsystem.api\\medicaltrackingsystem.api\\medicaltrackingsystem.api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\devanand.panday\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
