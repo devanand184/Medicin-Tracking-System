@@ -4,21 +4,27 @@ import { MedicinesListComponent } from './medicines-list/medicines-list.componen
 import { MedicinesDetailComponent } from './medicines-detail/medicines-detail.component';
 import { RouterModule } from '@angular/router';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { MedicinesAddComponent } from './medicines-add/medicines-add.component';
 
 
 @NgModule({
-  declarations: [MedicinesListComponent, MedicinesDetailComponent],
+  declarations: [MedicinesListComponent, MedicinesDetailComponent, MedicinesAddComponent],
   imports: [
     RouterModule.forChild([
       { path: 'medicines', component: MedicinesListComponent },
       {
         path: 'medicines/:id',
         component: MedicinesDetailComponent
+      },
+      {
+        path: 'add-medicines',
+        component: MedicinesAddComponent
       }
     ]),
     CommonModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class MedicinesModule { }

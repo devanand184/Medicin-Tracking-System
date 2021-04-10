@@ -11,6 +11,7 @@ import { DOCUMENT } from '@angular/common';
       <ul class='nav nav-pills'>
         <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
         <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/medicines']">Medicines List</a></li>
+        <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/add-medicines']">Add Medicines</a></li>
       </ul>
   </nav>
   <div class='container'>
